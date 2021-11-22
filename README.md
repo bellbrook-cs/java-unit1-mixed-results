@@ -2,9 +2,29 @@
 
 ## Problem Statement
 
-## Input Description
+Within the main method you will eventually printout the result of the following problems:
 
-## Sample Input/Output
+```
+Problem 1: 57.2 * (i1 / i2) +1
+Problem 2: 57.2 * ( (double)i1 / i2 ) + 1
+Problem 3: 15 – i1 * ( d1 * 3) + 4
+Problem 4: 15 – i1 * (int)( d1 * 3) + 4
+Problem 5: 15 – i1 * ( (int)d1 * 3) + 4
+```
+
+However, you should first calculate by hand what you expect the answers to be. For example, in the parenthesis of the first problem, you should realize that strictly integer arithmetic is taking place that results in a value of `0` for the parenthesis.
+
+Your printout should look like:
+
+```
+Problem 1: ?
+Problem 2: ?
+Problem 3: ?
+Problem 4: ?
+Problem 5: ?
+```
+
+Where the `?` are replaced with the solution to each problem.
 
 ## Submission
 
